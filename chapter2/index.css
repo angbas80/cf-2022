@@ -1,0 +1,75 @@
+h1 {
+    font-size: 3em;
+}
+
+p.lorem1-text,
+ul.lorem1-text {
+    color: blueviolet;
+}
+
+.lorem2-text {
+    color: aquamarine;
+}
+
+#ipsum {
+    background-color: brown;
+}
+
+ul em {
+    color: green;
+}
+
+h1 + p {
+    font-size: 120%;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.fg-red {
+    color: red;
+}
+
+.fg-white {
+    color: white;
+}
+
+.fg-blue {
+    color: blue;
+}
+
+
+
+
+
+
+/* p {
+    color: red;
+    background-color: black;
+} */
+
+/* p, li {
+    color: blue;
+} */
+
+ul {
+    list-style-type: none;
+}
+

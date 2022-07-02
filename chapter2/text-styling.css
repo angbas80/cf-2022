@@ -1,0 +1,73 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap'); */
+
+/* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v28-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/open-sans-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/open-sans-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/open-sans-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/open-sans-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/open-sans-v28-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+  }
+
+
+html {
+    height: 100%;
+}
+  /* body {
+    background-image: url(../img/art.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
+}   */
+
+.aueb-header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+    background-color: black;
+}
+
+.aueb-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+p  span {
+    font-weight: bold;
+}
+
+.text-aueb {
+    text-shadow: 2px 2px 2px red;
+}
+
+.text-lorem {
+    text-align: justify;
+    line-height: 22px;
+    text-indent: 10px;
+    color: rgb(144, 12, 63);
+    background-color: rgb(33, 47, 61, 0.2);
+    border: 1px solid green;
+    /* border-top-style: dotted; */
+
+
+}
+
+.fa-facebook-square,
+.fa-twitter-square {
+    font-size: 35px;
+    color: blue;
+} 
+
+
+

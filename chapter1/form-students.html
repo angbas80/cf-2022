@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Φόρμα Εκπαιδευομένων</title>
+    <style>
+        ul {
+            list-style-type: none;   
+            padding: 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+            vertical-align: top;
+        }
+
+        li {
+            margin: 2px 0;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            width: 330px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Στοιχεία Εκπαιδευομένου</h1>
+    <form>
+        <ul>
+            <li>
+                <label for="lastname">Επώνυμο</label>
+                <input type="text" id="lastname">
+            </li>
+            <li>
+                <label for="firstname">Όνομα</label>
+                <input type="text" id="firstname">
+            </li>
+            <li>
+                <label>Φύλο</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+                <label for="male">Άνδρας</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Γυναίκα</label>
+            </li>
+            <li>
+                <label for="certificate">Επίπεδο Σπουδών</label>
+                <select id="certificate">
+                    <option value="BSc">BSc</option>
+                    <option value="MSc">MSc</option>
+                    <option value="PhD">PhD</option>
+                </select>
+            </li>
+            <li>
+                <label for="comments"></label>
+                <textarea id="comments" cols="30" rows="10"></textarea>
+            </li>
+            <li>
+                <label for="submission">Ημερομηνία Υποβολής</label>
+                <input type="text" id="submission" placeholder="dd/MM/YY" maxlength="8" required
+                pattern="^(0[1-9]|[1-2][0-9]|3[0-1])\/(0[1-9]|1[0-2])\/([0-9]{2})$">
+            </li>
+            <li>
+                <input type="submit" value="Submit">
+            </li>
+        </ul>
+    </form>
+</body>
+</html>
