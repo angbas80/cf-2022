@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {   
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+p {
+    margin-top: 30px;
+}
+
+form {
+    width: 80%;
+    /* margin: 0 auto; */
+}
+
+.card {
+    background-color: #c5bbbb;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label span {
+    display: inline-block;
+    width: 120px;
+    text-align: right;
+}
+
+input {
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type=radio] {
+    width: auto;
+}
+
+input:focus {
+    border-color: #000;
+}
+
+button {
+    margin: 20px 0 0 120px;
+}
+
+fieldset {
+    width: 250px;
+    margin-left: 135px;
+}
+
+abbr {
+    color: red;
+}
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .error {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="insert-wrapper">
+        <h1>Insert Product</h1>
+    </div>
+
+    <div class="error hidden">
+        <p>Error Message</p>
+    </div>
+        
+
+    <script>
+        let errordiv = document.querySelector('.error')
+        let clone = errordiv.cloneNode(true)
+
+        clone.classList.remove('hidden')
+        clone.innerHTML = "Error Message"
+        
+        document.body.appendChild(clone)
+    </script>    
+    
+</body>
+</html>

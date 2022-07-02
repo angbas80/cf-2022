@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="side1">
+        <p>Hello</p>
+        <a href="">Click</a>
+    </div>
+
+    <div class="side2">
+        <p>World</p>
+        <a href=""></a>
+    </div>
+
+    <script>
+        const side2 = document.querySelector('.side2')
+
+        const par = side2.querySelector('p')
+        par.style.color = 'blue'
+            //για εισαγωγή κειμένου
+        par.innerHTML = '<b>Hello Coding Fctory</b>'
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .rating:after {
+            content: " / " attr(data-scale);
+        }
+    </style>
+
+</head>
+<body>
+    
+    <span class="rating" data-scale="100">Βαθμολογία</span>
+
+    <script>
+        const ratingScale = document.querySelector('.rating')
+        console.log(ratingScale.dataset.scale)
+    </script>
+
+</body>
+</html>

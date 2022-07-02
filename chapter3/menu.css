@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+}
+
+ul, li {
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 20px;;
+}
+
+a:hover {
+    color: red;
+}

@@ -1,0 +1,32 @@
+@media (min-width: 1200px) {
+    body {
+        background-color: red;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    body {
+        background-color: green;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    body {
+        background-color: yellow;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        background-color: hotpink;
+    }
+}
+
+
+

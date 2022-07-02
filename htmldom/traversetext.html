@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1><p>World</p>
+
+    <script>
+        function traverseText(t) {
+            let s = ""
+
+            for (let child = t.firstChild;child !== null; child = child.nextSibling) {
+                if(child.nodeType === 3) {
+                    s += child.nodeValue + " "
+                } else if (child.nodeType === 1 && child.nodeName !== 'SCRIPT') {
+                    s += traverseText(child)
+                }
+            }
+
+            return s
+        }
+
+        console.log(traverseText(document.body))
+    </script>
+</body>
+</html>

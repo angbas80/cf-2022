@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./mb-contacts.css">
+    <title>Εισαγωγή Επαφής</title>
+</head>
+<body>
+
+    <div class="outer"> 
+
+        <div class="menu">
+            <ul>
+                <li><a class="insert-link" href="">Εισαγωγή Επαφής</a></li>
+                <li><a class="search-link" href="">Αναζήτηση Επαφής</a></li>
+                <li><a class="showall-link" href="">Προβολή Επαφών</a></li>
+            </ul>
+        </div>
+
+        <form class="insert-contact-form hidden" action="">
+            <section>
+                <h2>Εισαγωγή Επαφής</h1>
+                    <fieldset>
+                    <legend>Στοιχεία Επαφής</legend>
+                    <div>
+                        <label for="firstname">Όνομα:</label>
+                        <input type="text" name="" id="firstname" size="30" maxlength="40" autofocus>
+                    </div>
+                    <div>
+                        <label for="lastname">Επώνυμο:</label>
+                        <input type="text" name="" id="lastname" size="30" maxlength="40">
+                    </div>
+                    <div>
+                        <label for="phoneNumber">Τηλέφωνο:</label>
+                        <input type="text" name="" id="phoneNumber" size="20" maxlength="15">
+                    </div>
+                </fieldset>    
+                
+                <div class="btn">
+                    <button id ="btn" type="button">Αποστολή</button>
+                </div>
+            </section>
+        </form>
+
+        <div class="search-wrapper hidden">
+            <form action="">
+                <input type="text" id="searchInput" class="search rounded" placeholder="Πληκτρολογήστε ένα τηλέφωνο" autofocus>
+            </form>
+        </div>
+
+        
+    </div>
+
+    <table class="contacts-table">
+            
+    </table>
+
+    <div class="not-found m-top hidden">
+        <span>Δε βρέθηκαν επαφές σύμφωνα με τα κριτήρια αναζήτησης.</span>
+    </div>
+
+   
+    <script src="./mb-contacts.js"></script>
+    
+</body>
+</html>
